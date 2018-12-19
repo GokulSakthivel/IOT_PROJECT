@@ -6,9 +6,9 @@ Generic_LM75 temperature;
 #include <SoftwareSerial.h>       //Software Serial library
 SoftwareSerial espSerial(9, 10);   //Pin 2 and 3 act as RX and TX. Connect them to TX and RX of ESP8266      
 #define DEBUG true
-String mySSID = "Gokul Honor 8X";       // WiFi SSID
-String myPWD = "Gokul123"; // WiFi Password
-String myAPI = "FG917T0X4I5CX739";   // API Key
+String mySSID = "XXXXXX XXXX XX";       // WiFi SSID
+String myPWD = "XXXXXXXXXXX"; // WiFi Password
+String myAPI = "XX91XX0X4XXCX739";   // API Key
 String myHOST = "api.thingspeak.com";
 String myPORT = "80";
 String myFIELD = "field1"; 
